@@ -6,11 +6,11 @@ las listas al terminar de procesarlas.
 list_impar = []
 list_par = []
 
-for i in range(3,80): #3..79
+for i in range(0,10): #3..79
     if( i % 2 != 0 ):
         list_impar.append(i)             #agregar a impar
-        continue
-    list_par.append(i)              #agregar a par
+    else:
+        list_par.append(i)              #agregar a par
 
 print(list_impar)
 print(list_par)
